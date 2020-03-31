@@ -11,16 +11,12 @@ h1 {
 	font-size: 1.75em;
 }
 
-.container {
-
+.container-fluid {
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
-.row {
-	margin-right:-20px;
-	margin-left: -20px;
-}
-
-.row > div {
+.section {
 	background-color: #999;
 	border: 1px solid black;
 	margin: 10px;
@@ -28,13 +24,17 @@ h1 {
 
 .title {
 	position: relative;
-	float:right;
+	float: right;
 	width: 150px;
-	padding:5px 0 5px 0;
+	padding: 5px 0 5px 0;
 	border: 1px solid #000;
 	text-align: center;
 	font-size: 1.25em;
 	font-weight: bold;
+}
+
+h2 {
+	padding:none;
 }
 
 .pink {
@@ -51,6 +51,5 @@ h1 {
 }
 
 p {
-	float:left;
-	padding: 10px;
+	padding: 5px;
 }
