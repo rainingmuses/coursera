@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	color: #222;
+	font-family:  "Helvetica", Arial, sans-serif;
+	background-color: #fff;
+}
+
+/** HEADER **/
+
+#header-nav {
+	background-color: #999;
+	border: 2px solid #222;
+}
+
+.navbar-brand h1 { /* Food, LLC */
+	font-weight: bold;
+	color: #222;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+/** END HEADER **/
+
+/** NAVBAR **/
+
+.navbar-nav {
+	border-top: 2px solid #222;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	margin-bottom: 10px;
+}
+
+#nav-list a {
+	background: #fff;
+	border: 1px solid #222;
+	text-decoration: none;
+	text-align: center;
+	color: #222;
+}
+
+#nav-list a:hover {
+	background-color: #999;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #222;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -50px;
+}
+/** END NAVBAR **/
+
+/** MAIN CONTENT **/
+
+#main-content h2 {
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#chicken-desc, #beef-desc, #sushi-desc {
+	background-color: #999;
+	width: 100%;
+	height: 450px;
+	margin-bottom: 30px;
+	padding: 20 20px 10px;
+	text-align: justify;
+}
+
+#chicken-desc h3, #beef-desc h3, #sushi-desc h3 {
+	font-weight: bold;
+	margin: 0 0 10px;
+}
